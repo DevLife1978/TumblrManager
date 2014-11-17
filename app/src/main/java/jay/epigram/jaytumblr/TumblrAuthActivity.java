@@ -25,7 +25,7 @@ public class TumblrAuthActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url.startsWith("projectg")) {
+                if (url.startsWith({url for auth})) {
                     mWebView.setVisibility(View.INVISIBLE);
                     TumblrManager.CurrentManager().authorization(Uri.parse(url), new TumblrManager.Result() {
                         @Override
