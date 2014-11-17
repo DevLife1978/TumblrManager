@@ -7,3 +7,6 @@ you must set token and secret in string.xml
     <string name="tumblr_consumer_token">{your consumer token}</string>
     
     <string name="tumblr_consumer_secret">{your consumer secret}</string>
+
+
+well, has bad project name. my fault. :p
